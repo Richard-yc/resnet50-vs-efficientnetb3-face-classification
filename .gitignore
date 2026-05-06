@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter cache/checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments and local environment files
+venv/
+env/
+.venv/
+.env/
+
+# Data files, but keep the folder README
+data/*
+!data/README.md
+
+datasets/
+raw_data/
+processed_data/
+
+# Checkpoints/model weights, but keep the folder README
+checkpoints/*
+!checkpoints/README.md
+
+models/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# Training logs and experiment tracking folders
+runs/
+wandb/
+tensorboard/
+logs/
+
+# Keep results files such as CSVs, tables, and plots
+# Do not ignore results/ because this repo may include:
+# - best configuration CSV files
+# - model comparison tables
+# - confusion matrix plots
+# - saved final result plots
+
+# Large compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
