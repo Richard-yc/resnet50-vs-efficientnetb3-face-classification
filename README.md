@@ -84,7 +84,7 @@ More detailed dataset setup instructions are available in:
 data/README.md
 ```
 ### Expected Dataset Structure
-The reproducibility notebooks currently assumes the main dataset is located on the Desktop and renamed to:
+The reproducibility notebooks currently assume the main dataset is located on the Desktop and renamed to
 
 ```text
 real-vs-fake
@@ -161,7 +161,7 @@ Recommended review order:
 2. notebooks/reproducibility/
 3. notebooks/experiments/
 
-### 8. Notes on Reproducibility
+## 8. Notes on Reproducibility
 
 The final notebooks summarize completed results and do not retrain the models.
 
