@@ -1,0 +1,2 @@
+Model,Selected Run,Checkpoint,Optimizer,Learning Rate,Weight Decay,Augmentation,Batch Size,Scheduler,Epochs,Patience,Best Epoch,Best Val Loss,Best Val Accuracy,Best Val F1,Best Val ROC-AUC
+EfficientNet-B3,E07,E07_best.pth,AdamW,0.0003,0.001,light,8,none,10,3,10,0.041985,0.98395,0.98399242008677,0.99891
