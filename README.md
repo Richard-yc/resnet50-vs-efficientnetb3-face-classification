@@ -169,7 +169,11 @@ The reproducibility notebooks are intended for rerunning evaluation or testing c
 
 The experiment notebooks contain the original tuning process and may show paths or outputs from the local runtime environment used during development.
 
-## 9.  Contributors (ECE 4990)
+## 9. Paper
+The full research paper is loacted in:
+
+
+## 10.  Contributors (ECE 4990)
 Richard Yam Ciau, Ulyses Ortega, Tran Vo
 
 ECE 4990- Department of Electrical and Computer Engineering
