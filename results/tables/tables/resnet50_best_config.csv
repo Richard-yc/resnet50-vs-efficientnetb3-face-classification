@@ -1,2 +1,0 @@
-Model,Selected Run,Checkpoint,Optimizer,Learning Rate,Weight Decay,Augmentation,Batch Size,Scheduler,Epochs,Patience,Best Epoch,Best Val Loss,Best Val Accuracy,Best Val F1,Best Val ROC-AUC
-ResNet-50,R13,R13_best.pth,AdamW,0.0001,0.001,light,8,ReduceLROnPlateau,10,3,10,0.05975774798369208,0.979,0.9790251697962445,0.9980216849999999
