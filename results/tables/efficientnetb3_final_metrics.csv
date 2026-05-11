@@ -1,0 +1,4 @@
+Evaluation Set,Dataset,Checkpoint,Accuracy,Precision,Recall,F1,ROC-AUC,Loss
+Held-out Test Split,Kaggle 140K test split,E07_best.pth,0.9857,0.983187,0.9883,0.985737,0.998883,0.040551
+Unseen Dataset A,130K Real vs Fake Face,E07_best.pth,0.520106,0.522188,0.991971,0.684202,0.406541,3.733826
+Unseen Dataset B,Deepfake-vs-Real,E07_best.pth,0.483875,0.491793,0.96625,0.651826,0.306554,3.926518

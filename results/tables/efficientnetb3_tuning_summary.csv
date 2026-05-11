@@ -1,0 +1,12 @@
+Run ID,Selected Run,Stage,Setting,Val Loss,Val Accuracy,Val F1,Val ROC-AUC,Best Epoch
+E01,E01,Baseline,"Adam, lr=1e-3, wd=1e-4, light, bs=8, no scheduler",0.12822,0.94985,0.94948,0.990644,10
+E02,E02,Learning Rate,lr=1e-4,0.074576,0.97185,0.972199,0.996586,9
+E03,E03,Learning Rate,lr=3e-4,0.055123,0.9788,0.979049,0.99849,9
+E04,E04,Optimizer,AdamW,0.049688,0.9817,0.981744,0.998385,10
+E05,E05,Optimizer,SGD,0.076183,0.97215,0.972384,0.996279,10
+E06,E06,Weight Decay,wd=1e-5,0.052605,0.9806,0.980822,0.998543,9
+E07,E07,Weight Decay,wd=1e-3,0.041985,0.98395,0.983992,0.99891,10
+E08,E08,Augmentation,medium,0.693558,0.5,0.666667,0.511391,5
+E09,E09,Augmentation,strong,0.694185,0.4931,0.456058,0.493464,2
+E10,E10,Batch Size,batch_size=16,0.051898,0.9811,0.981213,0.998309,9
+E11,E11,Scheduler,ReduceLROnPlateau,0.055099,0.9801,0.980142,0.998048,9
