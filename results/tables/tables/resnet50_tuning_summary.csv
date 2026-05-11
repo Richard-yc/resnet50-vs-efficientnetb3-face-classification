@@ -1,7 +1,0 @@
-Tuning Stage,Selected Run,Compared Setting,Chosen Value,Val Loss,Val Accuracy,Val F1,Val ROC-AUC,Best Epoch
-Learning Rate,R02,learning_rate,1e-4,0.083167,0.969,0.969124,0.995518,10
-Optimizer,R04,optimizer,AdamW,0.082343,0.9711,0.970966,0.996259,10
-Weight Decay,R08,weight_decay,1e-3,0.074883,0.9743,0.974514,0.996844,10
-Augmentation,R08,augmentation,light,0.074883,0.9743,0.974514,0.996844,10
-Batch Size,R08,batch_size,8,0.074883,0.9743,0.974514,0.996844,10
-Scheduler,R13,scheduler,ReduceLROnPlateau,0.059758,0.979,0.979025,0.998022,10
