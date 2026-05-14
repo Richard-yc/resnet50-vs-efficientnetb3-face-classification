@@ -3,15 +3,20 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*$py.class
 
 # Jupyter cache/checkpoints
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
 # Virtual environments and local environment files
 venv/
 env/
 .venv/
-.env/
+ENV/
+.env
+.env.*
+!.env.example
 
 # Data files, but keep the folder README
 data/*
@@ -30,13 +35,17 @@ models/
 *.pth
 *.ckpt
 *.h5
+*.hdf5
 *.onnx
+*.pkl
+*.joblib
 
 # Training logs and experiment tracking folders
 runs/
 wandb/
 tensorboard/
 logs/
+mlruns/
 
 # Keep results files such as CSVs, tables, and plots
 # Do not ignore results/ because this repo may include:
@@ -52,10 +61,20 @@ logs/
 *.rar
 *.7z
 
+# Large generated media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # IDE/editor files
 .vscode/
 .idea/
+*.swp
+*.swo
