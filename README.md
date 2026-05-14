@@ -171,6 +171,7 @@ The experiment notebooks contain the original tuning process and may show paths 
 
 ## 9. Paper
 The full research paper is loacted in:
+Final-Report
 
 
 ## 10.  Contributors (ECE 4990)
